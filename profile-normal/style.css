@@ -118,11 +118,25 @@ body {
  font-size: 13px;
 
 }
-.content-footer .subtitle-footer{
+.content-footer .subtitle-footer textarea{
  font-size: 11px;
  margin-top: 8px;
  color: darkgrey;
+ width: 90%;
+ padding: 10px;
+ background-color: #2f3136;
+ border: none;
+ resize: none;
+ overflow: auto;
 }
+
+.content-footer .subtitle-footer textarea:focus {
+    background: #202225;
+    outline: none;
+    border-radius: 3px;
+   
+   }
+
 .content-footer .form-footer{
  margin-top: 20px;
 }
@@ -132,8 +146,15 @@ body {
  width: 90%;
  padding: 10px;
  background-color: #202225;
- color: #2f3136;
+ color: darkgray;
 }
+
+.form-footer input:focus {
+    border: 2px solid #7289da;
+    outline: none;
+    border-radius: 3px;
+    
+    }
 .content-footer .text-footer {
  font-size: 11px;
  margin-top: 10px;
@@ -155,4 +176,16 @@ body {
 }
 .yellow {
  color: yellow;
+}
+.online {
+color: rgb(67, 181, 129);
+}
+.rolesoporte {
+color: yellow;
+}
+.rolesub {
+color: rgba(140, 158, 255, 0.6);
+}
+.rolemember {
+color: rgba(92, 107, 192, 0.6);
 }
