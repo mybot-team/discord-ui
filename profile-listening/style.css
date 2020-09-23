@@ -77,7 +77,6 @@ body {
 .pro-activity {
  background-color: #1cb050;
  padding: 10px;
- margin-bottom: 10px;
 }
 
 .pro-activity .playing-spotify {
@@ -149,6 +148,7 @@ body {
  padding: 5px;
  margin-top: 15px;
  cursor: pointer;
+ margin-bottom: 10px;
 }
 .spotify-buttom span {
  font-size: 14px;
