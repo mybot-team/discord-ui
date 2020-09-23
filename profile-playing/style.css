@@ -12,7 +12,7 @@ body {
 
 .profile {
  background-color: #7289DA;
- width: 290px;
+ width: 250px;
  color: white;
  border-radius: 5px;
  margin: 0 auto;
@@ -93,50 +93,20 @@ body {
 
 }
 .playing-game img {
- width: 70px;
- height: 70px;
+ width: 60px;
+ height: 60px;
  border-radius: 10px;
- margin-right: 10px;
+ margin-right: 12px;
 }
 .playing-game .title {
  display: block;
  font-weight: 700;
+ font-size: 15px;
 }
 .playing-game .subtitle {
- font-size: 15px;
+ font-size: 14px;
  line-height: 5px;
 
-}
-
-
-
-.playing-bar {
- margin-top: 15px;
-}
-.playing-bar .bar {
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(35%, rgba(255,255,255,1)), color-stop(36%, rgba(79,84,92,1)), color-stop(71%, rgba(79,84,92,1)), color-stop(100%, rgba(79,84,92,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
-  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#4f545c', GradientType=1 );
- height: 4px;
- border-radius: 4px;
-}
-
-.time {
- display: flex;
- font-size: 12px;
- font-weight: 500;
- margin-top: 2px;
-}
-.time .time-start {
- flex: 1 1 auto;
-}
-.time .time-end{
- flex: 0 1 auto;
 }
 
 
@@ -269,6 +239,6 @@ border-radius: 3px;
 color: darkgray;
 }
 
-.naranja {
+.orange {
   color: rgba(254, 45, 66, 0.6);
 }
