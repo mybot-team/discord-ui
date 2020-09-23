@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+ margin: 0;
+}
+
+body {
+ padding: 20px;
+ font-family: 'Open Sans',
+  sans-serif;
+}
+
+.profile {
+ background-color: #202225;
+ width: 250px;
+ color: white;
+ border-radius: 5px;
+ margin: 0 auto;
+}
+
+.profile .pro-header {
+ padding: 20px;
+ flex: 1 1 auto;
+ flex-direction: column;
+}
+
+/* ----- */
+/* Header Profile */
+.pro-header {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* Avatar */
+.pro-avatar {
+ display: inline-block;
+ position: relative;
+}
+
+.pro-avatar img {
+ border-radius: 50%;
+ width: 100px;
+}
+
+.pro-status {
+ transform: translate(50%, 50%);
+ position: absolute;
+ bottom: 14.64%;
+ right: 14.64%;
+ background-color: #202225;
+ border-radius: 50%;
+ padding: 3px;
+}
+
+.pro-status i {
+ font-size: 20px;
+}
+
+/* Username */
+.pro-username {
+ margin-top: 15px;
+}
+
+.pro-username .text-username {
+ font-weight: 900;
+}
+
+.pro-username .text-discrim {
+ color: darkgrey;
+ font-weight: 400;
+}
+
+/* ------ */
+/* Body Profile */
+
+.pro-body {
+ background-color: #2f3136;
+ padding: 10px;
+}
+
+.pro-body .title-body {
+ font-weight: 700;
+ color: darkgrey;
+ font-size: 13px;
+}
+
+.pro-body .roles-body {
+ margin-top: 15px;
+}
+
+.roles-body {
+ flex-wrap: wrap;
+ display: flex;
+}
+
+.roles-body .rol {
+ border: 1px solid;
+ border-radius: 11px;
+ display: flex;
+ align-items: center;
+ margin: 0 4px 4px 0;
+ padding: 4px;
+ box-sizing: border-box;
+ height: 22px;
+ font-size: 12px;
+ font-weight: 500;
+}
+
+.rol span {
+ color: white;
+ margin-left: 5px;
+ margin-right: 5px;
+}
+
+/* ----- */
+/* Footer Profile */
+.pro-footer {
+ background-color: #2f3136;
+ padding: 10px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+
+.content-footer .title-footer {
+ font-weight: 700;
+ color: darkgray;
+ font-size: 13px;
+
+}
+
+.content-footer .subtitle-footer {
+ font-size: 11px;
+ margin-top: 8px;
+ color: darkgrey;
+}
+
+.content-footer .form-footer {
+ margin-top: 20px;
+}
+
+.form-footer input {
+ border: 2px solid #323232;
+ border-radius: 3px;
+ width: 90%;
+ padding: 10px;
+ background-color: #202225;
+ color: #2f3136;
+}
+
+.content-footer .text-footer {
+ font-size: 11px;
+ margin-top: 10px;
+ text-align: center;
+ margin-bottom: 20px;
+ color: darkgrey;
+}
+
+
+/* colors */
+.red {
+ color: red;
+}
+
+.blue {
+ color: blue;
+}
+
+.green {
+ color: green;
+}
+
+.yellow {
+ color: yellow;
+}
