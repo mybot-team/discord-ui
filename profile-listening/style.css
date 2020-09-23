@@ -77,7 +77,7 @@ body {
 .pro-activity {
  background-color: #1cb050;
  padding: 10px;
- 
+ margin-bottom: 10px;
 }
 
 .pro-activity .playing-spotify {
@@ -117,9 +117,16 @@ body {
  margin-top: 15px;
 }
 .playing-bar .bar {
- background-color: #fff;
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(35%, rgba(255,255,255,1)), color-stop(36%, rgba(79,84,92,1)), color-stop(71%, rgba(79,84,92,1)), color-stop(100%, rgba(79,84,92,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 35%, rgba(79,84,92,1) 36%, rgba(79,84,92,1) 71%, rgba(79,84,92,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#4f545c', GradientType=1 );
  height: 4px;
- border-radius: 10px;
+ border-radius: 4px;
 }
 
 .time {
@@ -142,7 +149,6 @@ body {
  padding: 5px;
  margin-top: 15px;
  cursor: pointer;
- margin-bottom: 10px;
 }
 .spotify-buttom span {
  font-size: 14px;
@@ -207,10 +213,23 @@ body {
 
 }
 
-.content-footer .subtitle-footer {
+.content-footer .subtitle-footer textarea {
  font-size: 11px;
  margin-top: 8px;
  color: darkgrey;
+ width: 90%;
+ padding: 10px;
+ background-color: #2f3136;
+ border: none;
+ resize: none;
+ overflow: auto;
+}
+
+.content-footer .subtitle-footer textarea:focus {
+ background: #202225;
+ outline: none;
+ border-radius: 3px;
+
 }
 
 .content-footer .form-footer {
@@ -223,7 +242,14 @@ body {
  width: 90%;
  padding: 10px;
  background-color: #202225;
- color: #2f3136;
+ color: darkgray;
+}
+
+.form-footer input:focus {
+border: 2px solid #7289da;
+outline: none;
+border-radius: 3px;
+
 }
 
 .content-footer .text-footer {
@@ -237,15 +263,15 @@ body {
 
 /* colors */
 .red {
- color: red;
+ color: rgba(129, 199, 132, 0.6);
 }
 
 .blue {
- color: blue;
+ color: rgba(140, 158, 255, 0.6);
 }
 
 .green {
- color: green;
+ color: rgba(92, 107, 192, 0.6);
 }
 
 .yellow {
@@ -253,4 +279,12 @@ body {
 }
 .white {
  color: white;
+}
+
+.grey {
+color: darkgray;
+}
+
+.naranja {
+  color: rgba(254, 45, 66, 0.6);
 }
