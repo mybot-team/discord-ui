@@ -11,7 +11,7 @@ body {
 }
 
 .profile {
- background-color: #202225;
+ background-color: #1db954;
  width: 250px;
  color: white;
  border-radius: 5px;
@@ -48,7 +48,7 @@ body {
  position: absolute;
  bottom: 14.64%;
  right: 14.64%;
- background-color: #202225;
+ background-color: #1db954;
  border-radius: 50%;
  padding: 3px;
 }
@@ -67,13 +67,87 @@ body {
 }
 
 .pro-username .text-discrim {
- color: darkgrey;
  font-weight: 400;
+}
+
+/* ---- */
+/* Activity Profile */
+.pro-activity {
+ background-color: #1cb050;
+ padding: 10px;
+ margin-bottom: 10px;
+}
+
+.pro-activity .playing-spotify {
+ margin-top: 10px;
+}
+
+.pro-activity .title-activity {
+ font-weight: 700;
+ font-size: 13px;
+}
+
+.spotify-activity .playing-spotify {
+ display: flex;
+
+}
+.playing-spotify img {
+ width: 70px;
+ height: 70px;
+ border-radius: 10px;
+ margin-right: 10px;
+}
+.playing-spotify .title {
+ display: block;
+ font-weight: 700;
+}
+.playing-spotify .subtitle {
+ font-size: 15px;
+ line-height: 5px;
+
+}
+
+.spotify-activity .playing-bar {
+ display: block;
+}
+
+.playing-bar {
+ margin-top: 15px;
+}
+.playing-bar .bar {
+ background-color: #fff;
+ height: 4px;
+ border-radius: 10px;
+}
+
+.time {
+ display: flex;
+ font-size: 12px;
+ font-weight: 500;
+ margin-top: 2px;
+}
+.time .time-start {
+ flex: 1 1 auto;
+}
+.time .time-end{
+ flex: 0 1 auto;
+}
+
+.spotify-buttom {
+ border: 1px solid white;
+ border-radius: 3px;
+ text-align: center;
+ padding: 5px;
+ margin-top: 15px;
+}
+.spotify-buttom span {
+ font-size: 14px;
+ font-weight: 500;
+ margin-left: 5px;
 }
 
 /* ------ */
 /* Body Profile */
-
 .pro-body {
  background-color: #2f3136;
  padding: 10px;
@@ -172,4 +246,7 @@ body {
 
 .yellow {
  color: yellow;
+}
+.white {
+ color: white;
 }
