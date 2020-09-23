@@ -139,6 +139,7 @@ body {
  text-align: center;
  padding: 5px;
  margin-top: 15px;
+ cursor: pointer;
 }
 .spotify-buttom span {
  font-size: 14px;
