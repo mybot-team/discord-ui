@@ -1,88 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
- margin: 0;
+  margin: 0;
 }
 
 body {
- font-family: 'Open Sans',
- sans-serif;
- background-color: #36393f;
- color: white;
+  font-family: "Open Sans", sans-serif;
+  background-color: #36393f;
+  color: white;
 }
 body a {
- color: white;
- text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 nav {
- display: flex;
- background-color: #202225;
- padding: 10px;
-}
-.nav-bar {
- display: flex;
+  display: flex;
+  background-color: #202225;
+  padding: 10px;
 }
 
 .nav-branding {
- flex: 1 1 auto;
-}
-.nav-branding {
- font-size: 25px;
- color: #7289DA;
- font-weight: 600;
- padding-top: 5px;
+  flex: 1 1 auto;
+  font-size: 25px;
+  color: #7289da;
+  font-weight: 600;
+  padding-top: 5px;
 }
 .nav-branding i {
- font-weight: 100;
+  font-weight: 100;
 }
 .nav-branding:hover {
- cursor: pointer;
- color: white;
- transition: .3s;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
 }
 .nav-item {
- flex: 0 1 auto;
+  flex: 0 1 auto;
 }
-.nav-item ul{
- list-style-type: none;
- display: flex;
-
+.nav-item ul {
+  list-style-type: none;
+  display: flex;
 }
 .nav-item ul li {
- padding: 10px;
- cursor: pointer;
- font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 700;
 }
 .nav-item ul li:hover {
- color: #7289DA;
- transition: .3s;
- 
+  color: #7289da;
+  transition: 0.3s;
 }
 
 .body-home {
- display: flex;
- 
-}
-.body-home {
- justify-content:center;
- margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 .card {
- 
- background-color: #202225;
- padding: 20px;
- border-radius: 5px;
- text-align: center;
- margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202225;
+  padding: 20px;
+  flex-basis: 33.33%;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 10px;
 }
+
+.card:nth-child(3) {
+  /* La tercera tarjeta */
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .card .btn {
- background-color: #7289DA;
- border-radius: 3px;
- width: 50%;
- margin-top: 20px;
+  background-color: #7289da;
+  border-radius: 3px;
+  width: 50%;
+  margin-top: 20px;
 }
+
 .card .btn:hover {
- background-color: #36393f;
- transition: .2s;
- 
+  background-color: #36393f;
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  /* Vista para moviles */
+  .card {
+    min-width: 70%;
+    margin-top: 10px;
+    margin-right: 0 !important;
+  }
 }
