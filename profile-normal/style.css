@@ -122,21 +122,40 @@ body {
  font-size: 13px;
 
 }
-.content-footer .subtitle-footer{
+.content-footer .subtitle-footer textarea {
  font-size: 11px;
  margin-top: 8px;
  color: darkgrey;
+ width: 90%;
+ padding: 10px;
+ background-color: #2f3136;
+ border: none;
+ resize: none;
+ overflow: auto;
+}
+.content-footer .subtitle-footer textarea:focus {
+ background: #202225;
+ outline: none;
+ border-radius: 3px;
+
 }
 .content-footer .form-footer{
  margin-top: 20px;
 }
-.form-footer input{
+.form-footer input {
  border: 2px solid #323232;
  border-radius: 3px;
  width: 90%;
  padding: 10px;
  background-color: #202225;
- color: #2f3136;
+ color: darkgray;
+}
+
+.form-footer input:focus {
+ border: 2px solid #7289da;
+ outline: none;
+ border-radius: 3px;
+
 }
 .content-footer .text-footer {
  font-size: 11px;
