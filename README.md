@@ -9,6 +9,7 @@
 - Jugando
 - Escuchando
 - Normal
+- Streaming
 
 ##### [Visitar pagina](https://cratermaik.github.io/discord-ui/)
 ##### [Discord](https://discord.gg/g6ssSmK)
