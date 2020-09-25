@@ -67,13 +67,9 @@ nav {
   border-radius: 5px;
   text-align: center;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
-.card:nth-child(3) {
-  /* La tercera tarjeta */
-  margin-top: 10px;
-  margin-right: 10px;
-}
 
 .card .btn {
   background-color: #7289da;
