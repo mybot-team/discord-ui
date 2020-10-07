@@ -6,7 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #36393f;
+  background: url(https://cdn.discordapp.com/attachments/359424930686828544/758879886399373362/thumb-1920-909912.png);
   color: white;
 }
 body a {
@@ -64,12 +64,20 @@ nav {
   background-color: #202225;
   padding: 20px;
   flex-basis: 33.33%;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
-  margin-left: 10px;
   margin-top: 10px;
+  margin-left: 5px;
 }
 
+.card:nth-child(3) {
+  /* La tercera tarjeta */
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
 
 .card .btn {
   background-color: #7289da;
@@ -90,4 +98,8 @@ nav {
     margin-top: 10px;
     margin-right: 0 !important;
   }
+
+.pie {
+  color: aqua;
+}
 }
