@@ -51,6 +51,12 @@ nav {
   transition: 0.3s;
 }
 
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+
 .body-home {
   display: flex;
   justify-content: center;
@@ -93,11 +99,15 @@ nav {
 
 @media screen and (max-width: 600px) {
   /* Vista para moviles */
+  .container {
+    max-width: 100%;
+  }
   .card {
     min-width: 70%;
     margin-top: 10px;
     margin-right: 0 !important;
   }
+
 
 .pie {
   color: aqua;
