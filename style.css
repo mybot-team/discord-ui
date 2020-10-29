@@ -107,9 +107,11 @@ nav {
     margin-top: 10px;
     margin-right: 0 !important;
   }
+  .nav-branding {
+    font-size: 20px;
+  }
 
-
-.pie {
-  color: aqua;
-}
+  .pie {
+    color: aqua;
+  }
 }
